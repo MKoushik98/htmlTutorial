@@ -1,0 +1,51 @@
+.head {
+    text-align: center;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+.one {
+    
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 3px lightpink;
+ 
+
+}
+
+.zero {
+    /* width: 1170px; */
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+button{
+    background-color:aqua;
+    border-radius: 7px;
+}
+.one:hover{
+    background-color: lightseagreen;
+    font-size: larger;
+}
+button:hover{
+    font-size:large;
+    background-color: blue;
+    cursor: pointer;
+}
+@media screen and(min-width:200px) and (max-width:400px) {
+       .zero{
+        width: 100vw;
+       }    
+       .one{
+        width: 100vw;
+       }
+    }
